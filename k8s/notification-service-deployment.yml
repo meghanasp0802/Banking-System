@@ -37,4 +37,7 @@ spec:
               value: root
 
             - name: SPRING_DATASOURCE_PASSWORD
-              value: "123456"
+              valueFrom:
+               secretKeyRef:
+                name: banking-secret
+                key: DB_PASSWORD
