@@ -20,8 +20,8 @@ spec:
       containers:
         - name: notification-service
 
-          image: notification-service:latest
-          imagePullPolicy: Never
+          image: dockermspyq/notification-service:v1
+          imagePullPolicy: Always
 
           ports:
             - containerPort: 8084

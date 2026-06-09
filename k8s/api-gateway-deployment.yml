@@ -20,8 +20,8 @@ spec:
       containers:
         - name: api-gateway
 
-          image: api-gateway:latest
-          imagePullPolicy: Never
+          image: dockermspyq/api-gateway:v1
+          imagePullPolicy: Always
 
           ports:
             - containerPort: 8085

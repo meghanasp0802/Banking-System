@@ -19,8 +19,8 @@ spec:
     spec:
       containers:
         - name: registry
-          image: service-registry:latest
-          imagePullPolicy: Never
+          image: dockermspyq/service-registry:v1
+          imagePullPolicy: Always
 
           ports:
             - containerPort: 8761
